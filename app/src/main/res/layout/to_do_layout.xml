@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/title2ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold|italic"
+        android:text="Enter New Item" />
+
+
+    <Button
+        android:id="@+id/btn2ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:fontFamily="cursive"
+        android:onClick="saveButtonClicked"
+        android:text="ADD"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/newItemID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Enter Item"
+        />
+
+</LinearLayout>
